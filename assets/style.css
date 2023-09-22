@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #333;
+}
+
+/* Informações topo */
+
+.fundo-topo {
+    /* background: linear-gradient(to right, #556B2F, #8FBC8F); */
+    background-color: #144170;
+    height: auto;
+    padding: 0.7rem 0.7rem 0rem 0.7rem;
+}
+
+.informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 0 0 0;
+    flex-wrap: wrap;
+}
+
+.img-logo {}
+
+.texto-topo {
+    color: #fff;
+}
+
+.endereco i {
+    gap: 1rem;
+    display: flex;
+}
+
+.telefone i {
+    gap: 1rem;
+    display: flex;
+}
+
+.email i {
+    gap: 1rem;
+    display: flex;
+}
+
+.acessibilidade i {
+    gap: 1rem;
+    display: flex;
+}
+
+/* cabeçalho */
+
+.fundo-logo {
+    background-color: #92b6d6;
+    height: auto;
+    padding: 1rem;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.controle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 30px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 50px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 190px;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+}
+
+.input::placeholder {
+    color: #9e9ea7;
+}
+
+.input:focus,
+input:hover {
+    outline: none;
+    border-color: rgba(29, 29, 225, 0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(33, 51, 255, 0.1);
+}
+
+.lupa {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+}
+
+
+
+
+
+
+/* .pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra {
+    border-radius: 7px;
+    border: none;
+} */
+
+/* .lupa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    position: relative;
+    right: 25px;
+} */
+
+/* Banner */
+
+.fundo-banner {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Acesso Rápido */
+
+.fundo-acesso {
+    background-color: #144170;
+    height: auto;
+    padding: 1rem;
+}
+
+.titulo-acesso {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 10px;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.icones {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.alinhar-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-icon:hover {
+    background: #92B6D6;
+    color: white;
+    font-size: 1.5em;
+}
+
+.icons-titulo {
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* botões Maiores */
+
+.servicos h1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    padding-bottom: 1rem;
+    filter: drop-shadow(1px 1px 6px #000);
+}
+
+.fundo-botao {
+    background-color: #92B6D6;
+    height: auto;
+    padding: 1rem;
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem 3rem;
+}
+
+.botao {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.botao::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #ffffff;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms
+}
+
+.botao:hover {
+    color: #144170;
+}
+
+.botao:hover::before {
+    width: 100%;
+}
+
+.alinhamento-botao {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.alinhamento-botao img {
+    padding-top: 1rem;
+}
+
+.alinhamento-botao p {
+    padding-top: 10px;
+}
+
+/* notícias */
+.fundo-noticias {
+    padding: 1rem;
+    height: auto;
+    background-color: #fff;
+}
+
+.noticias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo-noticias h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    color: #000000;
+    padding-bottom: 1rem;
+    filter: none;
+}
+
+.btn-noticias {
+    position: relative;
+    background-color: #144170;
+    border-radius: 5px;
+    box-shadow: #92b6d6 0px 4px 0px 0px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 49px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .btn-noticias::before {
+    content: "";
+    background-color: #035195;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 700ms ease-in-out;
+    display: inline-block;
+  
+  }
+  
+  .btn-noticias:hover::before {
+    width: 100%;
+  }
+
+/* Rodapé */
+.fundo-rodape {
+    height: auto;
+    background-color: #144170;
+    padding-top: 0.8rem;
+
+}
+
+.rodape {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.fundo-final {
+    height: auto;
+    background-color: #144170;
+    padding: 0.3rem;
+}
+
+.final {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 1rem;
+    border-top: solid 1px rgba(128, 128, 128, 0.658);
+    ;
+}
+
+.texto-final {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1330px) {
+
+    /* topo */
+    .texto-topo {
+        font-size: 15px;
+    }
+
+    /* Acesso Rápido */
+    .icones {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* botões grandes */
+
+
+    .botoes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .botao {
+        width: 100px;
+        height: 100px;
+        font-size: 12px;
+    }
+
+    .alinhamento-botao img {
+        width: 50%;
+    }
+
+    .alinhamento-botao p {
+        font-size: 75%;
+    }
+
+    /* rodapé */
+
+    .inf-rodape {
+        font-size: 11px;
+    }
+
+    .texto-final {
+        font-size: 13px;
+    }
+}
